@@ -1,7 +1,7 @@
 
-inputfile = "../user_name.txt"
-inputfile2 = "../list_of_password.txt"
-outputfile = "../mypasswords.txt"
+inputfile = "../SuportFiles/user_name.txt"
+inputfile2 = "../SuportFiles/list_of_password.txt"
+outputfile = "../SuportFiles/mypasswords.txt"
 
 password_tolookfor = "j"
 
