@@ -16,8 +16,8 @@ myimage = pygame.image.load("intel_imag.png").convert()
 myimage = pygame.transform.scale(myimage, (50, 50))
 game_over = False
 
-x = 100
-y = 100
+x = 0
+y = 0
 while game_over == False:
 
 #-----Main Game Loop------
@@ -34,7 +34,8 @@ while game_over == False:
             if event.key == pygame.K_DOWN:
                 y += 20
         if event.type == pygame.MOUSEBUTTONDOWN:
-            x, y = event.pos 
+
+            x, y = event.pos
     screen.fill(bg_color)
     screen.blit(myimage, (x, y))
     pygame.display.flip()
